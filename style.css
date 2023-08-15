@@ -1,0 +1,83 @@
+/*
+Make the body background colour
+*/
+
+body {
+    background-color: #d4c9bb;
+}
+
+/*
+Properties for the h1 element 
+*/
+h1 {
+    color: #754040;
+    font-weight: 800;
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 35px;
+}
+
+/*
+Properties for the h2 element 
+*/
+
+h2 {
+    color: #754040;
+    font-weight: 600;
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 28px;
+}
+
+/*
+Properties for the h3 element 
+*/
+
+h3 {
+    color: #362020;
+    font-weight: 400;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+/*
+Properties for the img element
+object-fit:cover crops out excessive pixels and while maintaining aspect ratio 
+*/
+
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+/*
+Properties for the p element 
+*/
+
+p {
+    font-family: 'Times New Roman', Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+/*
+Properties for the div element 
+
+Not cocmpletely sure what effect this has on the code atm. We'd see
+*/
+div {
+    font-family: 'TImes New Roman', Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+/*
+.container {
+    background-color: aqua;
+    border-color: black;
+    border-width: 0.2rem;
+    max-width: 500px;
+    width: 100%;
+    border-style: solid;
+    margin: auto;
+    padding-left: 75px;
+    
+}
+*/
