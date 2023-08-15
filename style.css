@@ -68,6 +68,13 @@ div {
     font-size: 18px;
 }
 
+.homepage {
+    font-family: 'Lucida Sans', 'Gill Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #46302a;
+}
+
 /*
 .container {
     background-color: aqua;
