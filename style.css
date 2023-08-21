@@ -3,7 +3,10 @@ Make the body background colour
 */
 
 body {
-    background-color: #d4c9bb;
+    width: 500px;
+    min-width: 200px;
+    margin: 0 auto;
+    background-color: #fafafa;
 }
 
 /*
@@ -14,6 +17,10 @@ h1 {
     font-weight: 800;
     font-family: Arial, Tahoma, sans-serif;
     font-size: 35px;
+    background-color: #fafafa;
+    margin: 0px auto;
+    padding: 10px 0px;
+
 }
 
 /*
@@ -25,6 +32,9 @@ h2 {
     font-weight: 600;
     font-family: Arial, Tahoma, sans-serif;
     font-size: 28px;
+    background-color: #fafafa;
+    margin-top: -10px;
+    margin-bottom: 18px;
 }
 
 /*
@@ -36,6 +46,8 @@ h3 {
     font-weight: 400;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 20px;
+    padding: 5px 0px;
+    margin-top: -10px;
 }
 
 /*
@@ -44,9 +56,12 @@ object-fit:cover crops out excessive pixels and while maintaining aspect ratio
 */
 
 img {
-    width: 400px;
-    height: 400px;
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+    min-width: auto;
     object-fit: cover;
+    padding: 20px;
 }
 
 /*
@@ -56,6 +71,11 @@ Properties for the p element
 p {
     font-family: 'Times New Roman', Tahoma, sans-serif;
     font-size: 18px;
+    text-align: left;
+    background-color: #fafafa;
+    padding: 10px;
+    margin-top: -10px;
+
 }
 
 /*
@@ -64,7 +84,7 @@ Properties for the div element
 Not cocmpletely sure what effect this has on the code atm. We'd see
 */
 div {
-    font-family: 'TImes New Roman', Tahoma, sans-serif;
+    font-family: 'Times New Roman', Tahoma, sans-serif;
     font-size: 18px;
 }
 
@@ -75,16 +95,34 @@ div {
     color: #46302a;
 }
 
-/*
+
 .container {
-    background-color: aqua;
-    border-color: black;
-    border-width: 0.2rem;
+    background-color: #d4c9bb;
     max-width: 500px;
     width: 100%;
-    border-style: solid;
-    margin: auto;
-    padding-left: 75px;
+    margin-top: 0px;
+    text-align: center;
+    padding: 20px;
     
 }
-*/
+
+.menu, .ingredients, .steps {
+    background-color: #fafafa;
+    text-align: left;
+    margin-top: -10px;
+    padding: 0px 0px;
+
+
+}
+
+.img_con {
+    background-color: #fafafa;
+    margin-top: 10px;
+}
+
+.foot {
+    background-color: #fafafa;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    text-align: center;
+}
